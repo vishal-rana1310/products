@@ -10,7 +10,6 @@ header{
     position: relative;
     background: url(headerimg.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .header-overlay{
     width: 100%;
@@ -311,7 +310,14 @@ h3.product-name{
     }
 }
 @media only screen and (max-width: 500px){
+    header{
+        height: 400px;
+    }
+    .header-overlay{
+        height: 400px;
+    }
     .header-overlay .main-heading{
         margin-top: 40%;
     }
+    
 }
