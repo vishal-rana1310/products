@@ -10,6 +10,7 @@ header{
     position: relative;
     background: url(headerimg.jpg);
     background-size: cover;
+    background-position: bottom;
 }
 .header-overlay{
     width: 100%;
